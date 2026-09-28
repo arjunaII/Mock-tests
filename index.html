@@ -53,11 +53,193 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #94a3b8;
         }
+
+        /* NIGHT THEME */
+        body[data-theme="night"] {
+            background-color: #0f172a !important;
+            color: #e2e8f0 !important;
+        }
+        body[data-theme="night"] .bg-white {
+            background-color: #1e293b !important;
+            color: #f1f5f9 !important;
+            border-color: #334155 !important;
+        }
+        body[data-theme="night"] .bg-slate-50,
+        body[data-theme="night"] .bg-slate-100 {
+            background-color: #0f172a !important;
+            color: #e2e8f0 !important;
+            border-color: #334155 !important;
+        }
+        body[data-theme="night"] .bg-indigo-50,
+        body[data-theme="night"] .bg-indigo-50\/40,
+        body[data-theme="night"] .bg-indigo-50\/50,
+        body[data-theme="night"] .bg-indigo-50\/70 {
+            background-color: #1e1b4b !important;
+            border-color: #3730a3 !important;
+            color: #e0e7ff !important;
+        }
+        body[data-theme="night"] .text-slate-900,
+        body[data-theme="night"] .text-slate-800,
+        body[data-theme="night"] .text-slate-700 {
+            color: #f1f5f9 !important;
+        }
+        body[data-theme="night"] .text-slate-600,
+        body[data-theme="night"] .text-slate-500 {
+            color: #94a3b8 !important;
+        }
+        body[data-theme="night"] .border-slate-200,
+        body[data-theme="night"] .border-slate-100,
+        body[data-theme="night"] .border-slate-300 {
+            border-color: #334155 !important;
+        }
+        body[data-theme="night"] select,
+        body[data-theme="night"] input[type="text"],
+        body[data-theme="night"] input[type="number"],
+        body[data-theme="night"] textarea {
+            background-color: #0f172a !important;
+            color: #f8fafc !important;
+            border-color: #475569 !important;
+        }
+        body[data-theme="night"] .option-card:hover {
+            background-color: #312e81 !important;
+            border-color: #6366f1 !important;
+        }
+        body[data-theme="night"] .option-card.selected {
+            background-color: #3730a3 !important;
+            border-color: #818cf8 !important;
+        }
+
+        /* SUNNY THEME */
+        body[data-theme="sunny"] {
+            background-color: #fffbeb !important;
+            color: #78350f !important;
+        }
+        body[data-theme="sunny"] header {
+            background-color: #b45309 !important;
+        }
+        body[data-theme="sunny"] .bg-white {
+            background-color: #ffffff !important;
+            border-color: #fde68a !important;
+        }
+        body[data-theme="sunny"] .bg-slate-50,
+        body[data-theme="sunny"] .bg-slate-100 {
+            background-color: #fef3c7 !important;
+            border-color: #fde68a !important;
+        }
+        body[data-theme="sunny"] .bg-indigo-600,
+        body[data-theme="sunny"] .bg-indigo-700 {
+            background-color: #d97706 !important;
+        }
+        body[data-theme="sunny"] .bg-indigo-600:hover,
+        body[data-theme="sunny"] .bg-indigo-700:hover {
+            background-color: #b45309 !important;
+        }
+        body[data-theme="sunny"] .bg-indigo-50,
+        body[data-theme="sunny"] .bg-indigo-50\/40,
+        body[data-theme="sunny"] .bg-indigo-50\/50,
+        body[data-theme="sunny"] .bg-indigo-50\/70 {
+            background-color: #fef3c7 !important;
+            border-color: #fcd34d !important;
+        }
+        body[data-theme="sunny"] .text-indigo-600,
+        body[data-theme="sunny"] .text-indigo-800,
+        body[data-theme="sunny"] .text-indigo-900,
+        body[data-theme="sunny"] .text-indigo-950 {
+            color: #b45309 !important;
+        }
+        body[data-theme="sunny"] .text-slate-900,
+        body[data-theme="sunny"] .text-slate-800 {
+            color: #451a03 !important;
+        }
+        body[data-theme="sunny"] .text-slate-700,
+        body[data-theme="sunny"] .text-slate-600,
+        body[data-theme="sunny"] .text-slate-500 {
+            color: #78350f !important;
+        }
+        body[data-theme="sunny"] .option-card:hover {
+            background-color: #fef3c7 !important;
+            border-color: #f59e0b !important;
+        }
+        body[data-theme="sunny"] .option-card.selected {
+            background-color: #fde68a !important;
+            border-color: #d97706 !important;
+        }
+
+        /* NEON THEME */
+        body[data-theme="neon"] {
+            background-color: #080911 !important;
+            color: #00f0ff !important;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+        }
+        body[data-theme="neon"] header {
+            background-color: #0d0e1b !important;
+            border-bottom: 2px solid #00f0ff !important;
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.3) !important;
+        }
+        body[data-theme="neon"] .bg-white,
+        body[data-theme="neon"] .bg-slate-50,
+        body[data-theme="neon"] .bg-slate-100 {
+            background-color: #111322 !important;
+            color: #e2e8f0 !important;
+            border-color: #00f0ff33 !important;
+            box-shadow: 0 0 10px rgba(0,240,255,0.05) !important;
+        }
+        body[data-theme="neon"] .bg-indigo-600,
+        body[data-theme="neon"] .bg-indigo-700 {
+            background-color: #ff007f !important;
+            color: #ffffff !important;
+            box-shadow: 0 0 12px rgba(255, 0, 127, 0.5) !important;
+        }
+        body[data-theme="neon"] .bg-indigo-600:hover,
+        body[data-theme="neon"] .bg-indigo-700:hover {
+            background-color: #e00070 !important;
+        }
+        body[data-theme="neon"] .bg-indigo-50,
+        body[data-theme="neon"] .bg-indigo-50\/40,
+        body[data-theme="neon"] .bg-indigo-50\/50,
+        body[data-theme="neon"] .bg-indigo-50\/70 {
+            background-color: #1a0b2e !important;
+            border-color: #ff007faa !important;
+        }
+        body[data-theme="neon"] .text-slate-900,
+        body[data-theme="neon"] .text-slate-800,
+        body[data-theme="neon"] .text-slate-700 {
+            color: #00f0ff !important;
+        }
+        body[data-theme="neon"] .text-slate-600,
+        body[data-theme="neon"] .text-slate-500 {
+            color: #a855f7 !important;
+        }
+        body[data-theme="neon"] .text-indigo-600,
+        body[data-theme="neon"] .text-indigo-800,
+        body[data-theme="neon"] .text-indigo-900 {
+            color: #ff007f !important;
+        }
+        body[data-theme="neon"] select,
+        body[data-theme="neon"] input,
+        body[data-theme="neon"] textarea {
+            background-color: #090a12 !important;
+            color: #00f0ff !important;
+            border-color: #00f0ff !important;
+        }
+        body[data-theme="neon"] .option-card {
+            border-color: #3b0764 !important;
+        }
+        body[data-theme="neon"] .option-card:hover {
+            background-color: #2e1065 !important;
+            border-color: #00f0ff !important;
+            box-shadow: 0 0 10px rgba(0, 240, 255, 0.3) !important;
+        }
+        body[data-theme="neon"] .option-card.selected {
+            background-color: #4c1d95 !important;
+            border-color: #ff007f !important;
+            box-shadow: 0 0 15px rgba(255, 0, 127, 0.4) !important;
+        }
     </style>
 </head>
-<body class="bg-slate-100 min-h-screen flex flex-col font-sans text-slate-800 antialiased">
+<body class="bg-slate-100 min-h-screen flex flex-col font-sans text-slate-800 antialiased" data-theme="day">
 
-<header class="bg-slate-900 text-white shadow-md sticky top-0 z-30">
+<header class="bg-slate-900 text-white shadow-md sticky top-0 z-30 transition-colors duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div class="flex items-center space-x-3 cursor-pointer" onclick="confirmResetToSetup()">
             <div class="w-9 h-9 rounded-lg bg-indigo-600 flex items-center justify-center font-black text-xl text-white shadow">
@@ -69,30 +251,26 @@
             </div>
         </div>
 
-        <div id="headerExamWidget" class="hidden flex items-center space-x-3 sm:space-x-4">
-            <!-- Text Accessibility Controls -->
-            <div class="hidden md:flex items-center space-x-1 bg-slate-800 border border-slate-700 rounded-lg px-2 py-1 text-xs">
-                <button onclick="adjustFontSize(-1)" class="px-1.5 py-0.5 hover:bg-slate-700 rounded text-slate-300 font-bold" title="Decrease Text Size">A-</button>
-                <span class="text-slate-500">|</span>
-                <button onclick="adjustFontSize(0)" class="px-1.5 py-0.5 hover:bg-slate-700 rounded text-slate-300 font-bold" title="Reset Text Size">A</button>
-                <span class="text-slate-500">|</span>
-                <button onclick="adjustFontSize(1)" class="px-1.5 py-0.5 hover:bg-slate-700 rounded text-slate-300 font-bold" title="Increase Text Size">A+</button>
+        <div class="flex items-center space-x-2 sm:space-x-3">
+            <div class="flex items-center space-x-1.5 bg-slate-800 border border-slate-700 rounded-lg px-2 py-1 text-xs">
+                <span class="text-slate-400 font-bold hidden sm:inline" title="Theme Selector">&#127912;</span>
+                <select id="themeSelect" onchange="changeTheme(this.value)" class="bg-slate-800 text-slate-200 text-xs font-bold focus:outline-none cursor-pointer rounded py-0.5">
+                    <option value="day">&#9728;&#65039; Day</option>
+                    <option value="night">&#127769; Night</option>
+                    <option value="sunny">&#127880; Sunny</option>
+                    <option value="neon">&#9889; Neon</option>
+                </select>
             </div>
 
-            <!-- Sound FX Toggle -->
-            <button onclick="toggleAudio()" id="btnAudioToggle" class="bg-slate-800 border border-slate-700 p-1.5 rounded-lg text-slate-300 hover:text-white transition" title="Toggle Sound FX">
-                <span id="audioIcon">&#128067;</span>
-            </button>
-
-            <!-- Timer Badge -->
-            <div id="timerContainer" class="flex items-center space-x-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">
-                <span class="text-sm font-semibold text-slate-300">&#9200;</span>
-                <span id="timerDisplay" class="font-mono text-base font-bold text-amber-400">00:00:00</span>
+            <div id="headerExamWidget" class="hidden flex items-center space-x-3 sm:space-x-4">
+                <div id="timerContainer" class="flex items-center space-x-1.5 bg-slate-800 border border-slate-700 px-3 py-1 rounded-lg">
+                    <span class="text-xs text-amber-400">⏱</span>
+                    <span id="timerDisplay" class="font-mono text-base font-bold text-amber-400">00:00</span>
+                </div>
+                <button onclick="openSubmitModal()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-3 py-1.5 rounded-lg shadow transition">
+                    Submit Exam
+                </button>
             </div>
-
-            <button onclick="openSubmitModal()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-1.5 rounded-lg text-sm font-semibold transition shadow">
-                Finish Test
-            </button>
         </div>
     </div>
 </header>
@@ -100,179 +278,184 @@
 <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
 
     <!-- View Setup -->
-    <section id="viewSetup" class="max-w-4xl mx-auto space-y-6">
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
-            <div class="border-b border-slate-100 pb-5 mb-6 flex items-start justify-between">
+    <section id="viewSetup" class="space-y-6">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <div class="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-100 pb-5 mb-6 gap-4">
                 <div>
-                    <h2 class="text-2xl font-bold text-slate-900">Configure Your Mock Test</h2>
-                    <p class="text-sm text-slate-500 mt-1">
-                        PrepMaster automatically scans your repo for files (e.g. <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">pyq1.json</code>, <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">questions.json</code>), shuffles the pool, and generates a unique test every attempt.
+                    <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">Configure Randomized Test</h2>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-1">
+                        Select subject filters, marking schemes, and exam mode to automatically draw questions from your repository files.
                     </p>
                 </div>
-                <button onclick="scanRepositoryFiles()" class="text-xs font-bold bg-indigo-50 text-indigo-600 hover:bg-indigo-100 border border-indigo-200 px-3 py-2 rounded-lg transition flex items-center space-x-1 flex-shrink-0">
-                    <span>&#8635;</span> <span>Rescan Repo</span>
-                </button>
-            </div>
-
-            <!-- Source Bank Buttons (Upload & Paste) -->
-            <div class="mb-6 p-4 rounded-xl border border-dashed border-indigo-200 bg-indigo-50/40 flex flex-col sm:flex-row items-center justify-between gap-3">
-                <div class="text-xs text-slate-600">
-                    <span class="font-bold text-indigo-900 block text-sm mb-0.5">Custom Data Ingestion</span>
-                    Upload your own JSON files or paste JSON text to instantly expand the question pool.
-                </div>
-                <div class="flex items-center space-x-2 flex-shrink-0 w-full sm:w-auto">
-                    <label class="cursor-pointer bg-white border border-slate-300 hover:border-indigo-500 text-slate-700 font-bold text-xs px-3 py-2 rounded-lg transition flex items-center justify-center space-x-1 shadow-sm flex-1 sm:flex-initial">
-                        <span>&#128194;</span> <span>Upload JSON</span>
-                        <input type="file" id="jsonFileInput" accept=".json" multiple class="hidden" onchange="handleFileUpload(event)">
-                    </label>
-                    <button type="button" onclick="openPasteJsonModal()" class="bg-white border border-slate-300 hover:border-indigo-500 text-slate-700 font-bold text-xs px-3 py-2 rounded-lg transition flex items-center justify-center space-x-1 shadow-sm flex-1 sm:flex-initial">
-                        <span>&#128203;</span> <span>Paste JSON</span>
+                <div class="flex items-center space-x-2 bg-slate-100 p-1.5 rounded-xl self-start md:self-auto">
+                    <button onclick="toggleAudio()" title="Toggle Sound FX" class="p-2 rounded-lg bg-white shadow-sm hover:bg-slate-50 text-slate-700 text-xs font-bold flex items-center space-x-1">
+                        <span id="audioIcon">&#128066;</span>
+                        <span class="hidden sm:inline">Audio</span>
+                    </button>
+                    <div class="h-4 w-px bg-slate-300"></div>
+                    <button onclick="adjustFontSize(1)" title="Increase Font Size" class="px-2.5 py-1 rounded-lg bg-white shadow-sm hover:bg-slate-50 text-slate-700 font-extrabold text-xs">
+                        A+
+                    </button>
+                    <button onclick="adjustFontSize(-1)" title="Decrease Font Size" class="px-2.5 py-1 rounded-lg bg-white shadow-sm hover:bg-slate-50 text-slate-700 font-extrabold text-xs">
+                        A-
+                    </button>
+                    <button onclick="adjustFontSize(0)" title="Reset Font Size" class="px-2 py-1 rounded-lg bg-white shadow-sm hover:bg-slate-50 text-slate-500 font-bold text-xs">
+                        Reset
                     </button>
                 </div>
             </div>
 
-            <!-- Test Type Category -->
-            <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">1. Select Question Type</label>
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                    <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typePyqCard">
-                        <div class="flex items-center space-x-2">
-                            <input type="radio" name="testType" value="pyq" checked onchange="updateFiltersAndPreview()" class="text-indigo-600 focus:ring-indigo-500">
-                            <span class="font-bold text-slate-800 text-sm">&#127891; Previous Year Papers (PYQ)</span>
-                        </div>
-                        <span class="text-xs text-slate-500 mt-2 block">Loads questions with <code class="text-indigo-600 font-mono">type: "pyq"</code></span>
-                    </label>
-                    <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typeMockCard">
-                        <div class="flex items-center space-x-2">
-                            <input type="radio" name="testType" value="new" onchange="updateFiltersAndPreview()" class="text-indigo-600 focus:ring-indigo-500">
-                            <span class="font-bold text-slate-800 text-sm">&#127919; New Mock Questions</span>
-                        </div>
-                        <span class="text-xs text-slate-500 mt-2 block">Loads questions with <code class="text-indigo-600 font-mono">type: "new"</code></span>
-                    </label>
-                    <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typeAllCard">
-                        <div class="flex items-center space-x-2">
-                            <input type="radio" name="testType" value="all" onchange="updateFiltersAndPreview()" class="text-indigo-600 focus:ring-indigo-500">
-                            <span class="font-bold text-slate-800 text-sm">&#128203; Combined Bank</span>
-                        </div>
-                        <span class="text-xs text-slate-500 mt-2 block">Combines both PYQ & New Mock questions</span>
-                    </label>
-                </div>
-            </div>
-
-            <!-- Subject & Sub-topic Dropdowns -->
-            <div class="mb-6 bg-slate-50 p-4 rounded-xl border border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Configuration Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">2. Subject Category</label>
-                    <select id="selectCategory" onchange="updateTopicOptions()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                        <option value="all">All Subjects (Full Length Test)</option>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                        1. Select Subject / Category
+                    </label>
+                    <select id="selectCategory" onchange="updateTopicOptions()" class="w-full bg-slate-50 border border-slate-300 text-slate-800 text-sm font-semibold rounded-xl p-3 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition">
+                        <option value="all">All Subjects (Combined)</option>
                         <option value="GS">General Studies (GS)</option>
-                        <option value="Maths">Maths</option>
-                        <option value="English">English</option>
-                        <option value="Reasoning">Reasoning</option>
+                        <option value="Maths">Mathematics</option>
+                        <option value="English">English Language</option>
+                        <option value="Reasoning">General Reasoning</option>
                     </select>
                 </div>
+
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">3. Sub-Topic Target</label>
-                    <select id="selectTopic" onchange="updateFiltersAndPreview()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                        2. Sub-Topic Filter
+                    </label>
+                    <select id="selectTopic" onchange="updateFiltersAndPreview()" class="w-full bg-slate-50 border border-slate-300 text-slate-800 text-sm font-semibold rounded-xl p-3 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition">
+                        <option value="complete">Complete All Subjects</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                        3. Maximum Questions Limit
+                    </label>
+                    <select id="selectQuestionLimit" onchange="updateFiltersAndPreview()" class="w-full bg-slate-50 border border-slate-300 text-slate-800 text-sm font-semibold rounded-xl p-3 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition">
+                        <option value="all">All Available Matching Questions</option>
+                        <option value="5">5 Questions (Quick Quiz)</option>
+                        <option value="10">10 Questions</option>
+                        <option value="15">15 Questions</option>
+                        <option value="20" selected>20 Questions (Standard Mock)</option>
+                        <option value="25">25 Questions</option>
+                        <option value="30">30 Questions</option>
+                        <option value="50">50 Questions</option>
+                        <option value="100">100 Questions</option>
                     </select>
                 </div>
             </div>
 
-            <!-- Randomization Settings -->
-            <div class="mb-6 bg-indigo-50/50 p-4 rounded-xl border border-indigo-100">
-                <label class="block text-sm font-semibold text-indigo-950 mb-3 flex items-center justify-between">
-                    <span>4. Randomization & Test Sampling</span>
-                    <span class="text-xs bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded font-bold">&#127922; Active Shuffling</span>
-                </label>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Exam Scheme & Type Selection -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                        Marking Scheme Pattern
+                    </label>
+                    <div class="grid grid-cols-3 gap-2">
+                        <label id="schemeCdsCard" class="border-2 border-indigo-600 bg-indigo-50/30 p-3 rounded-xl cursor-pointer text-center transition">
+                            <input type="radio" name="examScheme" value="cds" checked onchange="updateSchemeUI()" class="hidden">
+                            <span class="block font-bold text-xs text-slate-800">CDS Pattern</span>
+                            <span class="block text-[10px] text-slate-500 mt-0.5">GS +0.83/-0.27</span>
+                        </label>
+                        <label id="schemeCseCard" class="border-2 border-slate-200 p-3 rounded-xl cursor-pointer text-center transition">
+                            <input type="radio" name="examScheme" value="cse" onchange="updateSchemeUI()" class="hidden">
+                            <span class="block font-bold text-xs text-slate-800">UPSC CSE</span>
+                            <span class="block text-[10px] text-slate-500 mt-0.5">+2.0 / -0.66</span>
+                        </label>
+                        <label id="schemeStdCard" class="border-2 border-slate-200 p-3 rounded-xl cursor-pointer text-center transition">
+                            <input type="radio" name="examScheme" value="standard" onchange="updateSchemeUI()" class="hidden">
+                            <span class="block font-bold text-xs text-slate-800">Standard</span>
+                            <span class="block text-[10px] text-slate-500 mt-0.5">+1.0 / -0.25</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                        Question Type Filter
+                    </label>
+                    <div class="grid grid-cols-3 gap-2">
+                        <label id="typePyqCard" class="border-2 border-indigo-600 bg-indigo-50/30 p-3 rounded-xl cursor-pointer text-center transition">
+                            <input type="radio" name="testType" value="pyq" checked onchange="updateFiltersAndPreview()" class="hidden">
+                            <span class="block font-bold text-xs text-slate-800">PYQs Only</span>
+                            <span class="block text-[10px] text-slate-500 mt-0.5">Past Questions</span>
+                        </label>
+                        <label id="typeMockCard" class="border-2 border-slate-200 p-3 rounded-xl cursor-pointer text-center transition">
+                            <input type="radio" name="testType" value="new" onchange="updateFiltersAndPreview()" class="hidden">
+                            <span class="block font-bold text-xs text-slate-800">New Mocks</span>
+                            <span class="block text-[10px] text-slate-500 mt-0.5">Fresh Practice</span>
+                        </label>
+                        <label id="typeAllCard" class="border-2 border-slate-200 p-3 rounded-xl cursor-pointer text-center transition">
+                            <input type="radio" name="testType" value="all" onchange="updateFiltersAndPreview()" class="hidden">
+                            <span class="block font-bold text-xs text-slate-800">Combined</span>
+                            <span class="block text-[10px] text-slate-500 mt-0.5">All Types</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Test Mode & Options -->
+            <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 mb-8">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center">
                     <div>
-                        <label class="block text-xs font-bold text-slate-600 mb-1">Number of Questions to Draw</label>
-                        <select id="selectQuestionLimit" onchange="updateFiltersAndPreview()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                            <option value="all">All Available Questions</option>
-                            <option value="10">Random 10 Questions</option>
-                            <option value="20" selected>Random 20 Questions</option>
-                            <option value="30">Random 30 Questions</option>
-                            <option value="50">Random 50 Questions</option>
-                            <option value="100">Random 100 Questions</option>
-                        </select>
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                            Mode Selection
+                        </label>
+                        <div class="grid grid-cols-2 gap-2">
+                            <label id="modeTimedCard" class="border-2 border-indigo-600 bg-indigo-50/30 p-2.5 rounded-lg cursor-pointer text-center text-xs font-bold">
+                                <input type="radio" name="testMode" value="timed" checked onchange="toggleModeUI()" class="hidden">
+                                ⏱ Timed Mode
+                            </label>
+                            <label id="modeUntimedCard" class="border-2 border-slate-200 p-2.5 rounded-lg cursor-pointer text-center text-xs font-bold">
+                                <input type="radio" name="testMode" value="untimed" onchange="toggleModeUI()" class="hidden">
+                                ☕ Practice Mode
+                            </label>
+                        </div>
                     </div>
-                    <div class="space-y-2 pt-1">
-                        <label class="flex items-center space-x-2 text-xs font-semibold text-slate-700 cursor-pointer">
-                            <input type="checkbox" id="chkShuffleQuestions" checked class="rounded text-indigo-600 focus:ring-indigo-500">
-                            <span>Randomize Question Order (Fisher-Yates)</span>
+
+                    <div id="durationSettingGroup">
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                            Timer Duration (Minutes)
+                        </label>
+                        <input type="number" id="testDurationInput" value="15" min="1" max="180" class="w-full bg-white border border-slate-300 text-slate-800 text-xs font-bold rounded-lg p-2.5 focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                            Randomization Controls
                         </label>
                         <label class="flex items-center space-x-2 text-xs font-semibold text-slate-700 cursor-pointer">
-                            <input type="checkbox" id="chkShuffleOptions" checked class="rounded text-indigo-600 focus:ring-indigo-500">
-                            <span>Shuffle Option Choices (A, B, C, D)</span>
+                            <input type="checkbox" id="chkShuffleQuestions" checked class="rounded text-indigo-600 focus:ring-indigo-500 w-4 h-4">
+                            <span>Shuffle Questions Order</span>
+                        </label>
+                        <label class="flex items-center space-x-2 text-xs font-semibold text-slate-700 cursor-pointer">
+                            <input type="checkbox" id="chkShuffleOptions" checked class="rounded text-indigo-600 focus:ring-indigo-500 w-4 h-4">
+                            <span>Shuffle Options Order (A/B/C/D)</span>
                         </label>
                     </div>
-                </div>
-            </div>
-
-            <!-- Exam Marking Pattern -->
-            <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">5. Marking Scheme Pattern</label>
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                    <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="schemeCdsCard">
-                        <div class="flex items-center space-x-2">
-                            <input type="radio" name="examScheme" value="cds" checked onchange="updateSchemeUI()" class="text-indigo-600 focus:ring-indigo-500">
-                            <span class="font-bold text-slate-800 text-sm">CDS Pattern</span>
-                        </div>
-                        <span class="text-xs text-slate-500 mt-2 block">Maths (+1 / -0.33)<br>GS & Eng (+0.833 / -0.277)</span>
-                    </label>
-                    <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="schemeCseCard">
-                        <div class="flex items-center space-x-2">
-                            <input type="radio" name="examScheme" value="cse" onchange="updateSchemeUI()" class="text-indigo-600 focus:ring-indigo-500">
-                            <span class="font-bold text-slate-800 text-sm">UPSC CSE Pattern</span>
-                        </div>
-                        <span class="text-xs text-slate-500 mt-2 block">GS (+2.0 / -0.666)<br>CSAT (+2.5 / -0.833)</span>
-                    </label>
-                    <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="schemeStdCard">
-                        <div class="flex items-center space-x-2">
-                            <input type="radio" name="examScheme" value="standard" onchange="updateSchemeUI()" class="text-indigo-600 focus:ring-indigo-500">
-                            <span class="font-bold text-slate-800 text-sm">Standard Pattern</span>
-                        </div>
-                        <span class="text-xs text-slate-500 mt-2 block">Uniform (+1.0 / -0.25)<br>For general practice</span>
-                    </label>
-                </div>
-            </div>
-
-            <!-- Execution Mode -->
-            <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-3">6. Test Execution Mode</label>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <label class="border-2 rounded-xl p-4 cursor-pointer flex items-start space-x-3 transition hover:border-indigo-200" id="modeTimedCard">
-                        <input type="radio" name="testMode" value="timed" checked onchange="toggleModeUI()" class="mt-1 text-indigo-600 focus:ring-indigo-500">
-                        <div>
-                            <span class="font-bold text-slate-800 block text-sm">&#9200; Timed Assessment</span>
-                            <span class="text-xs text-slate-500 mt-0.5 block">Simulate exact exam timer with countdown alerts.</span>
-                        </div>
-                    </label>
-                    <label class="border-2 rounded-xl p-4 cursor-pointer flex items-start space-x-3 transition hover:border-indigo-200" id="modeUntimedCard">
-                        <input type="radio" name="testMode" value="untimed" onchange="toggleModeUI()" class="mt-1 text-indigo-600 focus:ring-indigo-500">
-                        <div>
-                            <span class="font-bold text-slate-800 block text-sm">&#9749; Practice Mode (Untimed)</span>
-                            <span class="text-xs text-slate-500 mt-0.5 block">Solve questions at your own pace without time pressure.</span>
-                        </div>
-                    </label>
-                </div>
-            </div>
-
-            <div id="durationSettingGroup" class="mb-6 bg-slate-50 p-4 rounded-xl border border-slate-200">
-                <label class="block text-sm font-semibold text-slate-700 mb-1">Time Limit (Minutes)</label>
-                <div class="flex items-center space-x-3">
-                    <input type="number" id="testDurationInput" min="1" max="300" value="20" class="w-32 bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    <span class="text-xs text-slate-500">Adjust total allotted test time in minutes.</span>
                 </div>
             </div>
 
             <!-- Repository Discovery Status Box -->
             <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-5 mb-8">
-                <div class="flex justify-between items-center mb-3">
+                <div class="flex justify-between items-center mb-3 flex-wrap gap-2">
                     <h3 class="text-xs font-bold text-indigo-900 uppercase tracking-wider">Repository Auto-Discovery Status</h3>
-                    <button type="button" onclick="openJsonSchemaModal()" class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold underline">
-                        View JSON Schema Reference
-                    </button>
+                    <div class="flex items-center space-x-3">
+                        <label class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold underline cursor-pointer">
+                            <span>Upload Local JSON</span>
+                            <input type="file" id="localJsonFileInput" accept=".json" multiple onchange="handleFileUpload(event)" class="hidden">
+                        </label>
+                        <span class="text-indigo-300">|</span>
+                        <button type="button" onclick="openPasteJsonModal()" class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold underline">
+                            Paste Raw JSON
+                        </button>
+                        <span class="text-indigo-300">|</span>
+                        <button type="button" onclick="openJsonSchemaModal()" class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold underline">
+                            View JSON Schema Reference
+                        </button>
+                    </div>
                 </div>
                 <div id="repoFetchStatus" class="bg-white p-3.5 rounded-lg border border-indigo-100 text-xs mb-3 font-mono text-slate-700 leading-relaxed max-h-32 overflow-y-auto">
                     Scanning repository for question files...
@@ -787,11 +970,27 @@
     let onConfirmAction = null;
 
     document.addEventListener('DOMContentLoaded', () => {
+        initTheme();
         updateTopicOptions();
         updateSchemeUI();
         toggleModeUI();
         scanRepositoryFiles();
     });
+
+    function changeTheme(themeName) {
+        document.body.setAttribute('data-theme', themeName);
+        localStorage.setItem('prepmaster_theme', themeName);
+        const select = document.getElementById('themeSelect');
+        if (select) select.value = themeName;
+        showToast(`Theme changed to ${themeName.charAt(0).toUpperCase() + themeName.slice(1)} mode`, "info");
+    }
+
+    function initTheme() {
+        const savedTheme = localStorage.getItem('prepmaster_theme') || 'day';
+        document.body.setAttribute('data-theme', savedTheme);
+        const select = document.getElementById('themeSelect');
+        if (select) select.value = savedTheme;
+    }
 
     function toggleAudio() {
         audioEnabled = !audioEnabled;
@@ -1049,9 +1248,14 @@
     }
 
     function updateFiltersAndPreview() {
-        selectedTypeKey = document.querySelector('input[name="testType"]:checked').value;
-        const cat = document.getElementById('selectCategory').value;
-        const topicSlug = document.getElementById('selectTopic').value;
+        const typeElem = document.querySelector('input[name="testType"]:checked');
+        if (typeElem) selectedTypeKey = typeElem.value;
+        
+        const catElem = document.getElementById('selectCategory');
+        const cat = catElem ? catElem.value : 'all';
+
+        const topicElem = document.getElementById('selectTopic');
+        const topicSlug = topicElem ? topicElem.value : 'complete';
 
         ['Pyq', 'Mock', 'All'].forEach(k => {
             const card = document.getElementById(`type${k}Card`);
@@ -1082,30 +1286,41 @@
             return true;
         });
 
-        const limitVal = document.getElementById('selectQuestionLimit').value;
+        const limitElem = document.getElementById('selectQuestionLimit');
+        const limitVal = limitElem ? limitElem.value : 'all';
         let activeTestSize = matchingQuestionsPool.length;
         if (limitVal !== 'all') {
             activeTestSize = Math.min(matchingQuestionsPool.length, parseInt(limitVal, 10));
         }
 
-        document.getElementById('previewQCount').innerText = matchingQuestionsPool.length;
-        document.getElementById('previewTestSizeBadge').innerText = `${activeTestSize} Qs`;
+        const previewQCount = document.getElementById('previewQCount');
+        if (previewQCount) previewQCount.innerText = matchingQuestionsPool.length;
+
+        const previewTestSizeBadge = document.getElementById('previewTestSizeBadge');
+        if (previewTestSizeBadge) previewTestSizeBadge.innerText = `${activeTestSize} Qs`;
+
         const typeLabels = { pyq: 'PYQ Test', new: 'New Mocks', all: 'Combined Bank' };
-        document.getElementById('previewTypeBadge').innerText = typeLabels[selectedTypeKey] || 'PYQ';
-        document.getElementById('previewCategoryBadge').innerText = cat === 'all' ? 'All Subjects' : cat;
+        const previewTypeBadge = document.getElementById('previewTypeBadge');
+        if (previewTypeBadge) previewTypeBadge.innerText = typeLabels[selectedTypeKey] || 'PYQ';
+
+        const previewCatBadge = document.getElementById('previewCategoryBadge');
+        if (previewCatBadge) previewCatBadge.innerText = cat === 'all' ? 'All Subjects' : cat;
         
-        const selectedTopicText = document.getElementById('selectTopic').options[document.getElementById('selectTopic').selectedIndex]?.text || topicSlug;
-        document.getElementById('previewTopicBadge').innerText = (cat === 'all') ? 'All Topics' : selectedTopicText;
+        const selectedTopicText = topicElem && topicElem.options && topicElem.selectedIndex >= 0 ? topicElem.options[topicElem.selectedIndex].text : topicSlug;
+        const previewTopicBadge = document.getElementById('previewTopicBadge');
+        if (previewTopicBadge) previewTopicBadge.innerText = (cat === 'all') ? 'All Topics' : selectedTopicText;
 
         const durationInput = document.getElementById('testDurationInput');
-        durationInput.value = Math.max(5, Math.round(activeTestSize * 1.5));
+        if (durationInput) durationInput.value = Math.max(5, Math.round(activeTestSize * 1.5));
 
         const startBtn = document.getElementById('btnStartTest');
-        startBtn.disabled = (matchingQuestionsPool.length === 0);
+        if (startBtn) startBtn.disabled = (matchingQuestionsPool.length === 0);
     }
 
     function updateSchemeUI() {
-        selectedSchemeKey = document.querySelector('input[name="examScheme"]:checked').value;
+        const schemeElem = document.querySelector('input[name="examScheme"]:checked');
+        if (schemeElem) selectedSchemeKey = schemeElem.value;
+        
         const schemeBadge = document.getElementById('previewSchemeBadge');
         if (schemeBadge) {
             schemeBadge.innerText = selectedSchemeKey.toUpperCase();
@@ -1123,8 +1338,12 @@
     }
 
     function updateTopicOptions() {
-        const cat = document.getElementById('selectCategory').value;
+        const catElem = document.getElementById('selectCategory');
+        if (!catElem) return;
+        const cat = catElem.value;
         const topicSelect = document.getElementById('selectTopic');
+        if (!topicSelect) return;
+
         topicSelect.innerHTML = '';
         if (cat === 'all') {
             const opt = document.createElement('option');
@@ -1143,17 +1362,22 @@
     }
 
     function toggleModeUI() {
-        const mode = document.querySelector('input[name="testMode"]:checked').value;
+        const modeElem = document.querySelector('input[name="testMode"]:checked');
+        if (!modeElem) return;
+        const mode = modeElem.value;
         isTimedMode = (mode === 'timed');
         const durationGroup = document.getElementById('durationSettingGroup');
+        const modeTimedCard = document.getElementById('modeTimedCard');
+        const modeUntimedCard = document.getElementById('modeUntimedCard');
+
         if (isTimedMode) {
-            durationGroup.classList.remove('hidden');
-            document.getElementById('modeTimedCard').classList.add('border-indigo-600', 'bg-indigo-50/30');
-            document.getElementById('modeUntimedCard').classList.remove('border-indigo-600', 'bg-indigo-50/30');
+            if (durationGroup) durationGroup.classList.remove('hidden');
+            if (modeTimedCard) modeTimedCard.classList.add('border-indigo-600', 'bg-indigo-50/30');
+            if (modeUntimedCard) modeUntimedCard.classList.remove('border-indigo-600', 'bg-indigo-50/30');
         } else {
-            durationGroup.classList.add('hidden');
-            document.getElementById('modeUntimedCard').classList.add('border-indigo-600', 'bg-indigo-50/30');
-            document.getElementById('modeTimedCard').classList.remove('border-indigo-600', 'bg-indigo-50/30');
+            if (durationGroup) durationGroup.classList.add('hidden');
+            if (modeUntimedCard) modeUntimedCard.classList.add('border-indigo-600', 'bg-indigo-50/30');
+            if (modeTimedCard) modeTimedCard.classList.remove('border-indigo-600', 'bg-indigo-50/30');
         }
     }
 
@@ -1705,5 +1929,3 @@
         }
     }
 </script>
-</body>
-</html>
